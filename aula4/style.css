@@ -1,0 +1,64 @@
+h1 {
+    color: #cbd987;
+    font-size: 5em;
+  }
+  
+  h3 {
+    color: #f5a8e7;
+    font-size: 2em;
+    background-color: #9adbd0;
+  }
+  
+  .van p:hover {
+    color: #e5a4d9;
+    background-color: #dbd59a;
+    cursor: pointer;
+  }
+  
+  
+  
+  .d {
+    color: #1d7776;
+    font-size: 20px;
+    background-color: #a89adb;
+    font-style: italic;
+  }
+  
+  .t {
+    color: #1d7723;
+    font-size: 20px;
+    background-color: #dbad9a;
+  }
+  
+  #h {
+    color: #1e5085;
+    font-size: 20px;
+    background-color: #d3db9a;
+  }
+  
+  h1+p {
+    color: #0f0f0f;
+    font-size: 20px;
+    background-color: #d3db9a;
+  }
+  
+  .artwork p:hover {
+    background-color: #7f9ce1;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Estiliza a primeira letra de todos os parágrafos */
+  .artwork p::first-letter {
+    font-size: 150%;
+    /* Aumenta o tamanho da primeira letra */
+    font-weight: bold;
+    /* Deixa a primeira letra em negrito */
+    color: #ff5733;
+    /* Define uma cor para a primeira letra */
+  }
+  
+  ul li {
+    color: #47c11a;
+    font-size: 20px;
+    background-color: #d3db9a;}
